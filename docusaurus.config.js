@@ -329,7 +329,7 @@ const config = {
         },
       };
     },
-    require.resolve('./src/plugins/git-commit-info'),
+    [require.resolve('./src/plugins/git-commit-info'), {}],
   ],
 };
 
